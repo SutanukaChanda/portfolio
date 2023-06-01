@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Irish Grover' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b819a5e456.js" crossorigin="anonymous"></script>
+    <title>Sutanuka Chanda</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="images/Desktop - 11 (2).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>SUTANUKA</span></h1>
+            </div>
+        </div>
+    </div>
 
+   <!-----------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG-20211013-WA0053.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p><br></br>
+                    Hello, I am an undergraduate student at Vellore Institute of technology!
+                   <br> I am still learning my way through a lot of things and I like dipping
+                    my feet in all sorts of water but some of my adored and home-grown interests
+                    are Front-end development, FIGMA, back-end development, reading and writing. 
+                   <br> Besides being a computer science major, I am also a huge art and literature 
+                    nerd. 
+                    <br> Here are my works, and I hope you like them!</br>
+        
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><Span>UI/UX</Span><br>Designing Web/App interfaces on Figma and Adobe.</li>
+                        <li><Span>Web Development</Span><br>Web app development, specialising in Front-end.</li>
+                        <li><Span>Content Writer</Span><br>Technical writer with a strong experience of fictional writing, articles and SEO writing.</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><Span>2025</Span><br>Graduating from Vellore Institute of technology, with a degree in Computer Science Enginerring (Integrated M.Tech).</li>
+                        <li><Span>2020</Span><br>Graduated from Carmel Convent School, Rourkela, Odisha.</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--------services----->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>A Front-end developer who is learning her way through back-end. 
+                    <br>An aspiring full stack developer.
+                </p>
+                
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Designer</h2>
+                <p>A rapid interest in architectural, house decoration games as a kid, grew into a love of designing, using Figma and Adobe.
+                   
+                </p>
+                
+            </div>
+
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Content Writer</h2>
+                <p>Technical writer with a hands on experience of WordPress and SEO writing.</p>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/fig.png" alt="">
+                <div class="layer">
+                    <h3>Figma</h3>
+                    <p>My work in Figma</p>
+                    <a href="https://www.figma.com/file/qxaRiYrVtiYWEdmy06BaAr/Untitled?type=design&node-id=0%3A1&t=mHKJCUsPNfcvHEvO-1"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/code.png" alt="">
+                <div class="layer">
+                    <h3>Front-end</h3>
+                    <p>My work in Front-end development</p>
+                    <a href="https://github.com/SutanukaChanda"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/book.png" alt="">
+                <div class="layer">
+                    <h3>Content Writing</h3>
+                    <p>My work in content writing</p>
+                    <a href="https://linktr.ee/sutanuka612"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sutanukachanda@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9348557452</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sutanuka-chanda-206321200/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SutanukaChanda"><i class="fa-brands fa-github"></i></a>
+                </div>
+               
+            </div>
+            <div class="contact-right">
+                
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+
+</html>
